@@ -42,6 +42,10 @@ $(function () {
     //     document.getElementById('funding-status').innerHTML = "<span style='color:red'> CV cannot be empty </span>";
     //     return false;
     // }
+    if (document.getElementById('funding-ok').checked != true) {
+        document.getElementById('funding-status').innerHTML = "<span style='color:red'>Please enter agree to the data policy</span>";
+        return false;
+    }
     document.getElementById('funding-status').innerHTML = "Sending...";
     document.getElementById('funding-form').setAttribute('action', 'https://formspree.io/' + 'gagt2019.funding' + '@' + 'gmail' + '.' + 'com');
     document.getElementById('funding-form').submit();

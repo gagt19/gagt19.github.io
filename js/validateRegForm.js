@@ -31,6 +31,10 @@ $(function () {
             return false;
         }
     }
+    if (document.getElementById('registration-ok').checked != true) {
+        document.getElementById('registration-status').innerHTML = "<span style='color:red'>Please enter agree to the data policy</span>";
+        return false;
+    }
     document.getElementById('registration-status').innerHTML = "Sending...";
     document.getElementById('registration-form').setAttribute('action', 'https://formspree.io/' + 'gagt2019' + '@' + 'gmail' + '.' + 'com');
     document.getElementById('registration-form').submit();

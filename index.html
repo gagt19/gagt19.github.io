@@ -275,6 +275,7 @@
               <div class="col-md-12 mb-md-0 mb-5 registration-form">
                 <form id="registration-form" name="registration-form" method="POST">
                   <!-- <input type="hidden" name="_subject" value="Registration"/> -->
+                  <!-- <input type="hidden" name="_next" value="//mywebsite.com/thanks.html" /> -->
                   <input type="text" name="_gotcha" style="display:none"/>
                   <div class="row">
                     <div class="col-md-6">
@@ -339,14 +340,28 @@
                        </div>
                     </div>
                  </div>
+
+                 <div class="row">
+                   <div class="col-md-12 subrow">
+                     <div class="form-check">
+                       <input class="form-check-input" type="radio" id="registration-ok" name="registration-ok" value="ok">
+                       <label class="form-check-label" for="registration-ok">* I agree with the <a href="datenschutz.html">data policy</a></label>
+                     </div>
+                   </div>
+                 </div>
+
                 </form>
-                <p class="small">
-                  *Mandatory information.
-                </p>
+
+                <div class="subrow small">
+                  <p>
+                    *Mandatory information.
+                  </p>
+                </div>
+
+                <div id="registration-status"></div>
                 <div class="text-center text-md-left registration-btn">
                   <a class="btn btn-primary validateRegForm">Send registration</a>
                 </div>
-                <div id="registration-status"></div>
               </div>
             </div>
           </div>
@@ -448,22 +463,26 @@
                      </div>
                    </div>
                  </div>
-                 <!-- <div class="row">
-                   <div class="col-md-12">
+
+                 <div class="row">
+                   <div class="col-md-12 subrow">
                      <div class="form-check">
                        <input class="form-check-input" type="radio" id="funding-ok" name="funding-ok" value="ok">
-                       <label class="form-check-label" for="funding-ok"></label>
+                       <label class="form-check-label" for="funding-ok">* I agree with the <a href="datenschutz.html">data policy</a></label>
                      </div>
                    </div>
-                 </div> -->
+                 </div>
+
                 </form>
-                <p class="small">
-                  *Mandatory information.
-                </p>
+                <div class="subrow small">
+                  <p>
+                    *Mandatory information.
+                  </p>
+                </div>
+                <div id="funding-status"></div>
                 <div class="text-center text-md-left registration-btn">
                   <a class="btn btn-primary validateFundForm">Send application</a>
                 </div>
-                <div id="funding-status"></div>
               </div>
             </div>
           </div>
