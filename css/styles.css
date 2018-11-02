@@ -37,15 +37,6 @@ margin: -10px 0 -10px 0;
     background-size: cover;
 }
 
-#impressum-footer {
-  width: 100%;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
-}
 
 /* =============================================================================
    SPEAKER
@@ -228,6 +219,16 @@ margin: -10px 0 -10px 0;
     .box-sizing(border-box);
   }
   .about {margin: 0;}
+
+  #impressum-footer {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width:320px) and (max-width : 800px) {
