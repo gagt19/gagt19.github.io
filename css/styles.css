@@ -37,6 +37,16 @@ margin: -10px 0 -10px 0;
     background-size: cover;
 }
 
+#impressum-footer {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
 
 /* =============================================================================
    SPEAKER
@@ -79,7 +89,9 @@ margin: -10px 0 -10px 0;
   box-shadow: 0 0 0 8px rgba(0,0,0,.07);
   .transition(all 0.3s ease-out);
 }
-.speakers-item:hover .speaker-photo .photo {box-shadow: 0 0 0 8px rgba(0,0,0,.3);}
+.speakers-item:hover .speaker-photo .photo {
+  box-shadow: 0 0 0 8px rgba(0,0,0,.3);
+}
 .speech-time {
   color:#fff;
   background:#2b2b2b;
@@ -151,7 +163,7 @@ margin: -10px 0 -10px 0;
    ========================================================================== */
 .sponsor-item, .partner-item {
   display: inline-block;
-  margin: 0 30px 30px 0;
+  margin: 0 40px 30px 0;
   font-size:0.8em;
   color: grey;
 }
@@ -168,13 +180,14 @@ margin: -10px 0 -10px 0;
   border: 1px solid #ccc;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.15); */
 }
-.sponsor--link:hover, .sponsor--link:focus, .partner-link:hover, .partner-link:focus {border-color: #f0a303;}
-
+.sponsor--link:hover, .sponsor--link:focus, .partner-link:hover, .partner-link:focus {
+  border-color: #f0a303;
+}
 .sponsor-photo {
-  position: relative;
+  position: left;
   width: 150px;
   /* height: 100px; */
-  padding: 20px 10px;
+  padding: 20px 0px;
   float:left;
 }
 
@@ -219,16 +232,6 @@ margin: -10px 0 -10px 0;
     .box-sizing(border-box);
   }
   .about {margin: 0;}
-
-  #impressum-footer {
-    width: 100%;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    text-align: center;
-  }
 }
 
 @media only screen and (min-width:320px) and (max-width : 800px) {
@@ -260,12 +263,14 @@ margin: -10px 0 -10px 0;
   .schedule-tbl td.schedule-description {font-size:12px;}
 
   /* partners */
-  .sponsor-item, .partner-item {margin: 0 5px 10px 0;}
+  /* .sponsor-item, .partner-item {
+    margin: 0 5px 10px 0;
+  }
   .sponsor--link, .partner-link {
     width: 95px;
     height:95px;
     line-height: 95px;
-  }
+  } */
 
   /* contact */
   .control-group-name, .control-group-email {
@@ -328,14 +333,19 @@ margin: -10px 0 -10px 0;
     font-size: 4em;
     margin-bottom:.4em;
   }
-  .schedule-tbl .schedule-description {display: none;}
-  .schedule-tbl .schedule-slot {width: auto;}
-
+  .schedule-tbl .schedule-description {
+    display: none;
+  }
+  .schedule-tbl .schedule-slot {
+    width: auto;
+  }
   /* partners */
-  .sponsor-item, .partner-item {margin: 0 12px 15px 0;}
+  /* .sponsor-item, .partner-item {
+    margin: 0 12px 15px 0;
+  }
   .sponsor--link, .partner-link {
     width: 115px;
     height:115px;
     line-height: 115px;
-  }
+  } */
 }
