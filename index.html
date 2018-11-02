@@ -62,6 +62,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#organizers">Organizers</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -266,8 +269,9 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Registration</h2>
-            <p class="lead">Please fill out the registration form below.
+            <p class="lead">To register, please fill out the registration form below.
               Registration is free but compulsory.
+              Deadline for registration is <span style="font-weight: bold">January, 1st 2019</span>.
             </p>
 
             <div class="row">
@@ -377,7 +381,7 @@
             If you are interested in attending the conference and would like to apply for funding, please fill out the form below and attach a current CV.
             </p>
 
-            <p class="lead">Deadline for applications is <span style="font-weight: bold">December, 1st 2018</span>.
+            <p class="lead">Deadline for applications is <span style="font-weight: bold">December, 15th 2018</span>.
             We will then evaluate all applications and inform you about the decisions in the beginning of 2019.
             </p>
 
@@ -556,6 +560,84 @@
       </div>
     </section>
 
+    <section id="contact" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Contact</h2>
+            <div>
+
+              <p class="lead">To contact us, you can write us an email at "gagt2019 [at] gmail [dot] com" use out the contact form below.
+              </p>
+
+              <div class="row">
+                <div class="col-md-12 mb-md-0 mb-8 registration-form">
+                  <form id="contact-form" name="contact-form" method="POST">
+                    <input type="text" name="_gotcha" style="display:none"/>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-check mb-3 form-check-inline">
+                          <input class="form-check-input" type="radio" id="contact-mrs" name="contact-salut" value="Mrs." checked>
+                          <label class="form-check-label" for="contact-mrs">Mrs.</label>
+                        </div>
+                        <div class="form-check mb-3 form-check-inline">
+                          <input class="form-check-input" type="radio" id="contact-ms" name="contact-salut" value="Ms.">
+                          <label class="form-check-label" for="contact-ms">Ms.</label>
+                        </div>
+                        <div class="form-check mb-3 form-check-inline">
+                          <input class="form-check-input" type="radio" id="contact-mr" name="contact-salut" value="Mr.">
+                          <label class="form-check-label" for="contact-mr">Mr.</label>
+                        </div>
+                      </div>
+                    </div>
+
+                   <div class="row">
+                     <div class="col-md-6 subrow">
+                       <div class="md-form mb-0">
+                         <input type="text" id="contact-name" name="contact-name" class="form-control" placeholder="Name*">
+                       </div>
+                     </div>
+                     <div class="col-md-6 subrow">
+                       <div class="md-form mb-0">
+                         <input type="text" id="contact-email" name="contact-email" class="form-control" placeholder="Email*">
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="row">
+                     <div class="col-md-12 subrow">
+                       <div class="md-form mb-0">
+                         <textarea type="text" id="contact-message" name="contact-message" rows="4" class="form-control md-textarea" placeholder="Please enter your message*"></textarea>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="row">
+                     <div class="col-md-12 subrow">
+                       <div class="form-check">
+                         <input class="form-check-input" type="radio" id="contact-ok" name="contact-ok" value="ok">
+                         <label class="form-check-label" for="contact-ok">* I agree with the <a href="datenschutz.html">data policy</a></label>
+                       </div>
+                     </div>
+                   </div>
+
+                  </form>
+                  <div class="subrow small lead">
+                    <p>
+                      *Mandatory information.
+                    </p>
+                  </div>
+                  <div id="contact-status"></div>
+                  <div class="text-center text-md-left registration-btn">
+                    <a class="btn btn-primary validateContactForm">Send message</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
@@ -579,6 +661,7 @@
     <script src="js/SendEmail.js"></script>
     <script src="js/validateRegForm.js"></script>
     <script src="js/validateFundForm.js"></script>
+    <script src="js/validateContactForm.js"></script>
 
   </body>
 
