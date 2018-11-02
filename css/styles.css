@@ -167,7 +167,7 @@ margin: -10px 0 -10px 0;
 .sponsor--link, .partner-link {
   display: block;
   width: 150px;
-  height:150px;
+  /* height:100px; */
   text-align:center;
   vertical-align: middle;
   line-height: 150px;
@@ -179,6 +179,13 @@ margin: -10px 0 -10px 0;
 }
 .sponsor--link:hover, .sponsor--link:focus, .partner-link:hover, .partner-link:focus {border-color: #f0a303;}
 
+.sponsor-photo {
+  position: relative;
+  width: 150px;
+  /* height: 100px; */
+  padding: 20px 10px;
+  float:left;
+}
 
 /* =============================================================================
    REGISTRATION FORM
