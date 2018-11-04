@@ -106,6 +106,20 @@
           <div class="col-lg-8 mx-auto">
             <h2>Speakers</h2>
             <ul class="lead">
+              <!-- <li class="speakers-item" id="">
+                <h4 class="speaker-name">
+                  <span>Name
+                    ( <a href="" target="_blank" title=""></a> )
+                  </span>
+                </h4>
+                <p class="speakers-title">
+                  <span>Title
+                    ( <a class="js-scroll-trigger" href="#Tue9h30">Tuesday 9h30</a> )
+                  </span>
+                </p>
+                <p class="speakers-abstract">Abstract
+                </p>
+              </li> -->
               <li class="specker-item" id="bavard">
                 Juliette Bavard
               </li>
@@ -401,11 +415,11 @@
           <div class="col-lg-8 mx-auto">
             <h2>Schedule</h2>
             <p class="lead">The conference will start on Monday, February 25, at 10:30 am and end at Thursday, February 28, 12:00 am.</p>
-            <!-- <div class="schedule-tbl table-responsive ">
+            <!--<div class="schedule-tbl table-responsive ">
               <table class="table table-striped">
                 <thead>
                   <tr>
-                    <th class="schedule-heading">Time</th>
+                    <th class="schedule-heading"></th>
                     <th class="schedule-heading">Mon</th>
                     <th class="schedule-heading">Tue</th>
                     <th class="schedule-heading">Wed</th>
@@ -417,9 +431,9 @@
                    <tr>
                      <td class="schedule-time">9h30</td>
                      <td class="schedule-slot"></td>
-                     <td class="schedule-slot">Speaker</td>
-                     <td class="schedule-slot">Speaker</td>
-                     <td class="schedule-slot">Speaker</td>
+                     <td class="schedule-slot" id="Tue9h30"><a class="js-scroll-trigger" href="#">Speaker</a></td>
+                     <td class="schedule-slot" id="Wed9h30"><a class="js-scroll-trigger" href="#">Speaker</a></td>
+                     <td class="schedule-slot" id="Thu9h30"><a class="js-scroll-trigger" href="#">Speaker</a></td>
                    </tr>
 
                    <tr>
@@ -431,28 +445,28 @@
                    </tr>
                    <tr>
                      <td class="schedule-time">11h00</td>
-                     <td class="schedule-slot">Speaker</td>
-                     <td class="schedule-slot">Speaker</td>
-                     <td class="schedule-slot">Speaker</td>
-                     <td class="schedule-slot">Speaker</td>
+                     <td class="schedule-slot" id="Mon11h00"><a class="js-scroll-trigger" href="#">Speaker</a></td>
+                     <td class="schedule-slot" id="Tue11h00"><a class="js-scroll-trigger" href="#">Speaker</a></td>
+                     <td class="schedule-slot" id="Wed11h00"><a class="js-scroll-trigger" href="#">Speaker</a></td>
+                     <td class="schedule-slot" id="Thu11h00"><a class="js-scroll-trigger" href="#">Speaker</a></td>
                    </tr>
                    <tr>
                      <td class="schedule-time">12h00</td>
-                     <td class="schedule-slot">Lunch</td>
-                     <td class="schedule-slot">Lunch</td>
-                     <td class="schedule-slot">Lunch</td>
-                     <td class="schedule-slot">Lunch</td>
+                     <td class="schedule-slot">Lunch break</td>
+                     <td class="schedule-slot">Lunch break</td>
+                     <td class="schedule-slot">Lunch break</td>
+                     <td class="schedule-slot"></td>
                    </tr>
                    <tr>
                      <td class="schedule-time">14h00</td>
-                     <td class="schedule-slot">Speaker</td>
-                     <td class="schedule-slot">Speaker</td>
-                     <td class="schedule-slot">Speaker</td>
+                     <td class="schedule-slot" id="Mon14h00"><a class="js-scroll-trigger" href="#">Speaker</a></td>
+                     <td class="schedule-slot" id="Tue14h00"><a class="js-scroll-trigger" href="#">Speaker</a></td>
+                     <td class="schedule-slot" id="Wed14h00"><a class="js-scroll-trigger" href="#">Speaker</a></td>
                      <td class="schedule-slot"></td>
                    </tr>
                    <tr>
                      <td class="schedule-time">15h00</td>
-                     <td class="schedule-slot">Speaker</td>
+                     <td class="schedule-slot" id="Mon15h00"><a class="js-scroll-trigger" href="#">Speaker</a></td>
                      <td class="schedule-slot">Coffee break</td>
                      <td class="schedule-slot">Coffee break</td>
                      <td class="schedule-slot"></td>
@@ -460,13 +474,13 @@
                    <tr>
                      <td class="schedule-time">15h30</td>
                      <td class="schedule-slot">Coffee break</td>
-                     <td class="schedule-slot">Speaker</td>
-                     <td class="schedule-slot">Speaker</td>
+                     <td class="schedule-slot" id="Tue15h30"><a class="js-scroll-trigger" href="#">Speaker</a></td>
+                     <td class="schedule-slot" id="Wed15h30"><a class="js-scroll-trigger" href="#">Speaker</a></td>
                      <td class="schedule-slot"></td>
                    </tr>
                    <tr>
                      <td class="schedule-time">16h30</td>
-                     <td class="schedule-slot">Speaker</td>
+                     <td class="schedule-slot" id="Mon16h30"><a class="js-scroll-trigger" href="#">Speaker</a></td>
                      <td class="schedule-slot">Break</td>
                      <td class="schedule-slot">Break</td>
                      <td class="schedule-slot"></td>
@@ -474,8 +488,8 @@
                    <tr>
                      <td class="schedule-time">17h00</td>
                      <td class="schedule-slot"></td>
-                     <td class="schedule-slot">Panel</td>
-                     <td class="schedule-slot">Panel</td>
+                     <td class="schedule-slot" id="Tue17h00"><a class="js-scroll-trigger" href="#">Panel</a></td>
+                     <td class="schedule-slot" id="Wed17h00"><a class="js-scroll-trigger" href="#">Panel</a></td>
                      <td class="schedule-slot"></td>
                    </tr>
                    <tr>
@@ -644,7 +658,6 @@
       <div class="container">
         <p class="m-0 text-center text-white"><a href="impressum.html">Impressum</a> &middot; <a href="datenschutz.html">Datenschutzerkl&auml;rung</a> &middot; Background picture: &copy;Calibrium Real Estate Advisory</p>
       </div>
-      <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
