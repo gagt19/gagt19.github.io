@@ -54,7 +54,7 @@ margin: -10px 0 -10px 0;
 .speaker-item {
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom:1px dashed #e7e7e7;
+  /* border-bottom:1px dashed #e7e7e7; */
 }
 .speaker-name {
   font-weight: bold;
