@@ -63,7 +63,7 @@ margin: -10px 0 -10px 0;
 .speaker-title {
   margin-bottom: 5px;
 }
-.speaker-abstract {
+.speaker-abstract p {
   font-weight: lighter;
   font-size: small;
   color: grey;
