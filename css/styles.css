@@ -134,6 +134,10 @@ margin: -10px 0 -10px 0;
   font-size:12px;
 }
 
+.schedule-note {
+  /* font-size: small; */
+  color: grey;
+}
 
 /* =============================================================================
    SPONSORS  and  PARTNERS
