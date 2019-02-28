@@ -244,6 +244,10 @@ margin: -10px 0 -10px 0;
   }
   .schedule-tbl td.schedule-description {font-size:12px;}
 
+  .schedule-note {
+    /* font-size: small; */
+    color: black;
+  }
   /* partners */
   /* .sponsor-item, .partner-item {
     margin: 0 5px 10px 0;
@@ -289,6 +293,10 @@ margin: -10px 0 -10px 0;
   .content {padding: 0;}
   .content section {padding-top: 50px;}
 
+  .schedule-note {
+    /* font-size: small; */
+    color: black;
+  }
   /* speakers */
   /* .speaker-item {
     min-height:70px;
@@ -320,6 +328,10 @@ margin: -10px 0 -10px 0;
   }
   .schedule-tbl .schedule-slot {
     width: auto;
+  }
+  .schedule-note {
+    /* font-size: small; */
+    color: black;
   }
   /* partners */
   /* .sponsor-item, .partner-item {
